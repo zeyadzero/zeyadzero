@@ -1,0 +1,69 @@
+{
+  "name": "Zeyad Hossam",
+  "username": "zeyadzero",
+  "host": "devops",
+  "info": [
+    ["Role",      "DevOps / Cloud / Backend / IT"],
+    ["OS",        "Linux Mint (Cinnamon)"],
+    ["Focus",     "Automation, CI/CD, infrastructure"],
+    ["Shell",     "bash"],
+    ["Packaging", "Debian packages + signed APT repo"],
+    ["Status",    "building in public"]
+  ],
+  "deploy_steps": [
+    ["lint",     "0 warnings"],
+    ["build",    ".deb packaged"],
+    ["test",     "all checks green"],
+    ["publish",  "apt repo signed"],
+    ["monitor",  "watching 24/7"]
+  ],
+  "pipeline": ["Commit", "Build", "Test", "Scan", "Package", "Deploy", "Monitor"],
+  "infra": {
+    "clients": "Clients",
+    "lb": "Nginx / LB",
+    "api": "Backend API",
+    "db": "PostgreSQL",
+    "cache": "Redis",
+    "queue": "Queue + Workers",
+    "obs": "observability: Prometheus · Grafana · Loki"
+  },
+  "skills": [
+    {"namespace": "os",      "items": [["linux", "running"], ["bash", "running"], ["networking", "running"], ["systemd", "running"]]},
+    {"namespace": "devops",  "items": [["git", "running"], ["github-actions", "running"], ["docker", "running"], ["kubernetes", "learning"], ["terraform", "learning"], ["ansible", "learning"]]},
+    {"namespace": "cloud",   "items": [["aws", "learning"], ["monitoring", "running"]]},
+    {"namespace": "backend", "items": [["python", "running"], ["rest-apis", "running"], ["postgresql", "learning"]]}
+  ],
+  "badges": [
+    ["Linux", "FCC624", "linux", "black"],
+    ["Docker", "2496ED", "docker", "white"],
+    ["Kubernetes", "326CE5", "kubernetes", "white"],
+    ["Terraform", "7B42BC", "terraform", "white"],
+    ["GitHub Actions", "2088FF", "githubactions", "white"],
+    ["Python", "3776AB", "python", "white"],
+    ["AWS", "232F3E", "amazonaws", "white"],
+    ["PostgreSQL", "4169E1", "postgresql", "white"],
+    ["Nginx", "009639", "nginx", "white"],
+    ["Bash", "4EAA25", "gnubash", "white"]
+  ],
+  "projects": [
+    {
+      "name": "Zeyad Monitor",
+      "description": "RAM / CPU / GPU monitor for Linux: per-app usage with logos, a panel indicator, Waydroid apps with real names, and a package + dependency explorer.",
+      "tags": ["Python", "GTK3", "Linux", "Waydroid", "Debian"],
+      "url": "https://github.com/zeyadzero/zeyad-monitor"
+    },
+    {
+      "name": "Signed APT repo on GitHub Pages",
+      "description": "A fully automated, GPG-signed Debian repository: push a .deb, GitHub Actions rebuilds the index and publishes it. Users just apt install.",
+      "tags": ["CI/CD", "GitHub Actions", "APT", "GPG", "Pages"],
+      "url": "https://github.com/YOUR-GITHUB-USERNAME/zeyad-monitor-repo"
+    }
+  ],
+  "links": {
+    "email": "zeyadhossameldeen0@gmail,com",
+    "linkedin": "https://www.linkedin.com/in/zeyad-hossameldin/",
+    "twitter": "",
+    "website": ""
+  },
+  "footer": "Automate everything. Monitor the rest."
+}
