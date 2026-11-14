@@ -27,24 +27,93 @@
     "queue": "Queue + Workers",
     "obs": "observability: Prometheus · Grafana · Loki"
   },
-  "skills": [
-    {"namespace": "os",      "items": [["linux", "running"], ["bash", "running"], ["networking", "running"], ["systemd", "running"]]},
-    {"namespace": "devops",  "items": [["git", "running"], ["github-actions", "running"], ["docker", "running"], ["kubernetes", "learning"], ["terraform", "learning"], ["ansible", "learning"]]},
-    {"namespace": "cloud",   "items": [["aws", "learning"], ["monitoring", "running"]]},
-    {"namespace": "backend", "items": [["python", "running"], ["rest-apis", "running"], ["postgresql", "learning"]]}
-  ],
-  "badges": [
-    ["Linux", "FCC624", "linux", "black"],
-    ["Docker", "2496ED", "docker", "white"],
-    ["Kubernetes", "326CE5", "kubernetes", "white"],
-    ["Terraform", "7B42BC", "terraform", "white"],
-    ["GitHub Actions", "2088FF", "githubactions", "white"],
-    ["Python", "3776AB", "python", "white"],
-    ["AWS", "232F3E", "amazonaws", "white"],
-    ["PostgreSQL", "4169E1", "postgresql", "white"],
-    ["Nginx", "009639", "nginx", "white"],
-    ["Bash", "4EAA25", "gnubash", "white"]
-  ],
+
+"skills": [
+  {
+    "namespace": "os",
+    "items": [
+      ["linux", "running"],
+      ["bash", "running"],
+      ["networking", "running"],
+      ["systemd", "running"],
+      ["redhat", "running"],
+      ["windows-server", "running"]
+    ]
+  },
+  {
+    "namespace": "devops",
+    "items": [
+      ["git", "running"],
+      ["github-actions", "running"],
+      ["docker", "running"],
+      ["kubernetes", "running"],
+      ["openshift", "learning"],
+      ["terraform", "running"],
+      ["ansible", "running"],
+      ["jenkins", "running"],
+      ["istio", "running"],
+      ["trivy", "running"],
+      ["sonarqube", "running"]
+    ]
+  },
+  {
+    "namespace": "cloud",
+    "items": [
+      ["aws", "running"],
+      ["azure", "running"],
+      ["monitoring", "running"]
+    ]
+  },
+  {
+    "namespace": "backend",
+    "items": [
+      ["python", "running"],
+      ["rest-apis", "running"],
+      ["aspnet-core", "running"],
+      ["sql-server", "running"],
+      ["postgresql", "running"],
+      ["mongodb", "running"]
+    ]
+  },
+  {
+    "namespace": "infrastructure",
+    "items": [
+      ["vmware-esxi", "running"],
+      ["vmware-vcenter", "running"],
+      ["fortigate", "running"]
+    ]
+  }
+],
+
+  
+"badges": [
+  ["Linux", "FCC624", "linux", "black"],
+  ["Red Hat", "EE0000", "redhat", "white"],
+  ["Windows Server", "0078D4", "windows", "white"],
+  ["Bash", "4EAA25", "gnubash", "white"],
+  ["Docker", "2496ED", "docker", "white"],
+  ["Kubernetes", "326CE5", "kubernetes", "white"],
+  ["OpenShift", "EE0000", "redhatopenshift", "white"],
+  ["Terraform", "7B42BC", "terraform", "white"],
+  ["Ansible", "EE0000", "ansible", "white"],
+  ["GitHub Actions", "2088FF", "githubactions", "white"],
+  ["Jenkins", "D24939", "jenkins", "white"],
+  ["Istio", "466BB0", "istio", "white"],
+  ["Trivy", "1904DA", "aquasecurity", "white"],
+  ["SonarQube", "4E9BCD", "sonarqube", "white"],
+  ["AWS", "232F3E", "amazonaws", "white"],
+  ["Azure", "0078D4", "microsoftazure", "white"],
+  ["Python", "3776AB", "python", "white"],
+  ["ASP.NET Core", "512BD4", "dotnet", "white"],
+  ["SQL Server", "CC2927", "microsoftsqlserver", "white"],
+  ["MongoDB", "47A248", "mongodb", "white"],
+  ["PostgreSQL", "4169E1", "postgresql", "white"],
+  ["Nginx", "009639", "nginx", "white"],
+  ["VMware ESXi", "607078", "vmware", "white"],
+  ["VMware vCenter", "607078", "vmware", "white"],
+  ["FortiGate", "EE3124", "fortinet", "white"]
+],
+
   "projects": [
     {
       "name": "Zeyad Monitor",
